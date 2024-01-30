@@ -1,0 +1,41 @@
+body {
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: #e0d5c5;
+}
+
+/* ====================================================== */
+
+.block {
+    /* border: 10px groove #52c667;
+    border-top: 10px double #000;
+    border-width: 13px;
+    border-style: dashed;
+    border-color: red;
+
+    border-top-color: blue; */
+
+    /* border: 5px solid #000; */
+    /* border-radius: 40%; */
+
+    /* border-top-right-radius: 40px; */
+    /* border-radius: 0 40px 0 0; */
+
+    outline: 10px groove #52c667;
+}
+
+.inline {
+    border: 1px solid #000;
+}
+
+.img {
+    border: 5px solid red;
+    border-radius: 40px;
+}
