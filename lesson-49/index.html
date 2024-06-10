@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form name="pass">
+        <fieldset>
+            <legend>ФИО</legend>
+            <label>Фамилия
+                <input type="text" placeholder="Ваша фамилия" required>
+            </label>
+            <br>
+            <br>
+            <label>Имя
+                <input type="text" placeholder="Ваше имя" required>
+            </label>
+            <br>
+            <br>
+            <label>Отчество
+                <input type="text" placeholder="Ваше отчество" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <label>Серия и номер
+                <input type="number" required>
+            </label>
+            <br>
+            <br>
+            <label>Кем выдан
+                <input type="text" required>
+            </label>
+            <br>
+            <br>
+            <label>Дата рождения
+                <input type="date" required>
+            </label>
+            <br>
+            <br>
+            <label>Место рождения
+                <input type="text" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <label>Телефон
+                <input type="tel">
+            </label>
+            <br>
+            <br>
+            <label>Почта
+                <input type="email" required>
+            </label>
+        </fieldset>
+        <br>
+        <label>Согласие на обработку персональных данных
+            <br>
+            <label>
+                <input type="checkbox">Согласен(а)
+            </label>
+            <br>
+            <label>Фото
+                <input type="file">
+            </label>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</body>
+
+</html>
