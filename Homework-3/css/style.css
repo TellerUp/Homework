@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    background: linear-gradient(#59aefd9e, #ffced69f);
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0 0 9px 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title-block-1, .title-block-2 {
+    display: none;
+}
+
+fieldset label {
+    display: block;
+    margin: 5px 0;
+}
+
+fieldset input,
+fieldset textarea {
+    display: block;
+    margin: 5px 0 9px 0;
+    padding: 5px 10px;
+    min-width: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#message {
+    resize: vertical;
+    max-height: 200px;
+}
+
+.checkbox {
+    display: block;
+    margin: 9px 0;
+    font-size: 12px;
+}
+
+.input-checkbox {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #59aefd9e;
+}
