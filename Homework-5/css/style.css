@@ -1,0 +1,49 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bebebe;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #000;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.link-tel {
+    text-decoration: none;
+}
