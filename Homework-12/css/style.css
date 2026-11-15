@@ -38,7 +38,7 @@ body {
 }
 
 .main {
-    grid-column: 3 / 12 span;
+    grid-column: 3 / 10 span;
     background-color: #1eee1e;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -68,7 +68,7 @@ body {
     }
 
     .main {
-        grid-column: 4 / 12 span;
+        grid-column: 4 / 9 span;
     }
 }
 
